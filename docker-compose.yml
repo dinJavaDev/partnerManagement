@@ -1,5 +1,5 @@
 springBootApp:
-    image: dinjavadev/spring-boot:docker_partnermngmt
+    image: dinjavadev/spring-boot:docker-partnermngmt
     container_name: springembtomcat
     ports:
         - 8085
