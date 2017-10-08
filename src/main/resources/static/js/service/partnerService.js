@@ -2,7 +2,7 @@
 
 angular.module('partnerApp').factory('PartnerService', ['$http', '$q', function($http, $q){
 
-    var REST_SERVICE_URI = 'http://localhost:8085/partners/';
+    var REST_SERVICE_URI = 'http://localhost:8080/partners/';
 
     var factory = {
         fetchAllPartners: fetchAllPartners,

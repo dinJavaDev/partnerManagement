@@ -2,11 +2,12 @@ springBootApp:
     image: dinjavadev/spring-boot:docker-partnermngmt
     container_name: springembtomcat
     ports:
-        - 8085
+        - 8080
     hostname: localhost
+    volumes:
+        - $HOME:/home       
     links:
         - mongodb:mongo
-            
 mongodb:
     image: mongo
     container_name: mongo
@@ -14,5 +15,4 @@ mongodb:
         - 27017
     hostname: mongo
     volumes:
-        - $HOME/mongo/data/db:/data/db
-        
+        - $HOME/mongo/data/db:/data/db       
