@@ -13,16 +13,16 @@ Technology stack
 
 Resource URL
 Application Home Page
-	http://localhost:8085/home
+	http://localhost:8080/home
 
 To search for all partners (GET)
-	http://localhost:8085/partners/
+	http://localhost:8080/partners/
 
 To search for a specific partner by id (GET)
-	http://localhost:8085/partners/1
+	http://localhost:8080/partners/1
 
 To create a new partner (POST)
-	http://localhost:8085/partners/
+	http://localhost:8080/partners/
 	Payload Example:
 	{
 	    "id": 1,
@@ -32,7 +32,7 @@ To create a new partner (POST)
 	}
 
 To update an existing partner (PUT)
-	http://localhost:8085/partners/1
+	http://localhost:8080/partners/1
 	Payload Example:
 	{
 	    "id": 1,
@@ -41,7 +41,7 @@ To update an existing partner (PUT)
 	    "email": "JesiRay@nbc.com"
 	}
 To delete a specific partner by id (DELETE)
-	http://localhost:8085/partners/2
+	http://localhost:8080/partners/2
 
 Source Code Location
 	https://github.com/dinJavaDev/partnerManagement.git
